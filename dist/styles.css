@@ -1339,7 +1339,7 @@ video {
 @font-face {
   font-family: IRANSansX-Regular;
 
-  src: url(dist/fonts/IRANSansX-Regular.woff) format("woff");
+  src: url('../dist/fonts/woff/IRANSansX-Regular.woff') format("woff");
 }
 
 body {
