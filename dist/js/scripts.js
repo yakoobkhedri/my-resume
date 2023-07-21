@@ -106,3 +106,9 @@ focusArea.forEach((item) => {
         item.parentElement.querySelector('span').classList.add('active');
     }
 })
+
+// fancybox
+
+Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+  });
