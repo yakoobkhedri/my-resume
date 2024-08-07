@@ -867,6 +867,10 @@ video {
   width: 70px;
 }
 
+.w-\[85\%\] {
+  width: 85%;
+}
+
 .w-auto {
   width: auto;
 }

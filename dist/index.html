@@ -140,7 +140,7 @@
                     </svg>
                 </a>
             </div>
-            <a
+            <a href="img/document.pdf" target="_blank"
                 class="rounded-3xl custom-transition hover:bg-white hover:text-primary mt-11 border-white border w-36 h-11 cursor-pointer flex items-center justify-center shadow-3xl mx-auto">
                 دانلود رزومه
             </a>
@@ -167,33 +167,33 @@
                 <div class="grid sm:grid-cols-2 gap-9 mt-9">
                     <p class="text-gray-300 leading-7 text-justify">
                         من یعقوب خدری برنامه نویس و طراح وب از پاریس ایران (ارومیه) هستم. عاشق طراحی و برنامه نویسی
-                        ام و اکثر وقت مشغول این کارم. برنامه نویسی رو تقریبا چهار سالی هست که شروع کردم و طی سه سال اخیر
+                        ام و اکثر وقت مشغول این کارم. برنامه نویسی رو تقریبا <span id="startDateText">4</span> سال هست که شروع کردم و طی سه سال اخیر
                         به صورت حرفه ای پیگیر این کارم. تمرکز من بیشتر در رابطه با طراحی و برنامه نویسی فرانت اند هست.
                     </p>
                     <ul>
                         <li class="mb-3">
-                            <span class="text-primary">سن</span>
-                            <span class="text-gray-300">32</span>
+                            <span class="text-primary">سن:</span>
+                            <span class="text-gray-300" id="ageText"></span>
                         </li>
 
                         <li class="mb-3">
-                            <span class="text-primary">کشور</span>
+                            <span class="text-primary">کشور:</span>
                             <span class="text-gray-300">ایران</span>
                         </li>
 
                         <li class="mb-3">
-                            <span class="text-primary">آدرس</span>
+                            <span class="text-primary">آدرس:</span>
                             <span class="text-gray-300">ارومیه - شیخ تپه</span>
                         </li>
 
                         <li class="mb-3">
-                            <span class="text-primary">ایمیل</span>
+                            <span class="text-primary">ایمیل:</span>
                             <a href="mailto:yakkobkhedrii@gmail.com"
                                 class="text-gray-300 cursor-pointer">yakkobkhedrii@gmail.com</a>
                         </li>
 
                         <li class="mb-3">
-                            <span class="text-primary">شماره تماس</span>
+                            <span class="text-primary">شماره تماس:</span>
                             <a href="tel:+989149492490" class="text-gray-300 cursor-pointer" dir="ltr">+98 914 949
                                 2490</a>
                         </li>
@@ -395,9 +395,12 @@
                                 <div class="pr-5 pb-7">
                                     <h4 class="text-white mb-2">شرکت ادیب گستر</h4>
                                     <p class="text-gray-300 text-sm font-light text-justify">از سال 1402 تا 1403 به صورت
-                                        استخدامی و دورکاری برای این شرکت فعالیت می کردم - <a
+                                        استخدامی و دورکاری برای این شرکت فعالیت می کردم -
+                                         <a
                                             class="text-primary cursor-pointer"
-                                            href="https://adib-it.com">adib-it.com</a></a></p>
+                                            href="https://adib-it.com">adib-it.com
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                             <div class="flex">
@@ -425,7 +428,13 @@
                                 <div class="pr-5 pb-7">
                                     <h4 class="text-white mb-2">تیم برنامه نویسی کارزان</h4>
                                     <p class="text-gray-300 text-sm font-light text-justify">از سال 1402 تاکنون به صورت
-                                         دورکاری برای این تیم فعالیت میکنم</p>
+                                         دورکاری برای این تیم فعالیت میکنم-
+                                        <a
+                                         class="text-primary cursor-pointer"
+                                         href="http://karzaan.com">
+                                         karzaan.com
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -537,8 +546,17 @@
                             </div>
                             <div class="mb-4">
                                 <div class="flex items-center justify-between text-xs">
-                                    <span class="text-gray-400 font-light">75%</span>
+                                    <span class="text-gray-400 font-light">85%</span>
                                     <span>Vue js</span>
+                                </div>
+                                <div class="h-3 rounded-lg border border-primary flex items-center">
+                                    <div class="h-2 w-[85%] bg-primary rounded-lg border-2 border-primary"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="flex items-center justify-between text-xs">
+                                    <span class="text-gray-400 font-light">75%</span>
+                                    <span>Nuxt js</span>
                                 </div>
                                 <div class="h-3 rounded-lg border border-primary flex items-center">
                                     <div class="h-2 w-3/4 bg-primary rounded-lg border-2 border-primary"></div>
@@ -673,7 +691,7 @@
                                     class="group-hover:opacity-80 custom-transition">
                             </a>
                             <a class="hover:text-primary cursor-pointer custom-transition"
-                                href="https://moeid-yakoobkhedri.netlify.app/src/html/index.html">معید</a>
+                                href="https://moeid-yakoobkhedri.netlify.app/src/html/index.html">گروه حقوقی معید</a>
                         </div>
                          <div class="group web relative">
                             <a href="https://jamil-yakoobkhedri.netlify.app/src/html/index.html"
@@ -948,38 +966,6 @@
                                 href="https://dav-yakoobkhedri.netlify.app/">dav</a>
                         </div>
                         <div class="group web relative">
-                            <a href="https://nimabank-yakoobkhedri.netlify.app/"
-                                class="relative block cursor-pointer rounded-xl overflow-hidden mb-2">
-                                <div
-                                    class="flex justify-between absolute top-1 inset-x-2 z-50 custom-transition opacity-0 group-hover:opacity-100">
-                                    <img src="img/webIcon.PNG" alt="icon" class="w-7 h-7">
-                                    <span
-                                        class="text-white bg-black flex items-center justify-center text-xs h-5 px-1">قالب
-                                        کامل</span>
-                                </div>
-                                <img src="img/nimabankScreenshot.PNG" alt="portfolioImg"
-                                    class="group-hover:opacity-80 custom-transition">
-                            </a>
-                            <a class="hover:text-primary cursor-pointer custom-transition"
-                                href="https://nimabank-yakoobkhedri.netlify.app/">nimaBank</a>
-                        </div>
-                        <div class="group web relative">
-                            <a href="https://mohammadi-shop-yakoobkhedri.netlify.app/"
-                                class="relative block cursor-pointer rounded-xl overflow-hidden mb-2">
-                                <div
-                                    class="flex justify-between absolute top-1 inset-x-2 z-50 custom-transition opacity-0 group-hover:opacity-100">
-                                    <img src="img/webIcon.PNG" alt="icon" class="w-7 h-7">
-                                    <span
-                                        class="text-white bg-black flex items-center justify-center text-xs h-5 px-1">قالب
-                                        کامل</span>
-                                </div>
-                                <img src="img/mohammadiShop.PNG" alt="portfolioImg"
-                                    class="group-hover:opacity-80 custom-transition">
-                            </a>
-                            <a class="hover:text-primary cursor-pointer custom-transition"
-                                href="https://mohammadi-shop-yakoobkhedri.netlify.app/">فروشگاه لوله و اتصالات محمدی</a>
-                        </div>
-                        <div class="group web relative">
                             <a href="https://my-resume-yakoobkhedri.netlify.app/"
                                 class="relative block cursor-pointer rounded-xl overflow-hidden mb-2">
                                 <div
@@ -1010,37 +996,6 @@
                             </a>
                             <a class="hover:text-primary cursor-pointer custom-transition"
                                 href="https://rozgol-yakoobkhedri.netlify.app">رزگل</a>
-                        </div>
-                        <div class="group template relative">
-                            <a href="https://mobileshop-yakoobkhedri.netlify.app/"
-                                class="relative block cursor-pointer rounded-xl overflow-hidden mb-2">
-                                <div
-                                    class="flex justify-between absolute top-1 inset-x-2 z-50 custom-transition opacity-0 group-hover:opacity-100">
-                                    <img src="img/templateIcon.PNG" alt="icon" class="w-7 h-7">
-                                    <span
-                                        class="text-white bg-black flex items-center justify-center text-xs h-5 px-1">تک
-                                        صفحه</span>
-                                </div>
-                                <img src="img/mobileShopScreenshot.PNG" alt="portfolioImg"
-                                    class="group-hover:opacity-80 custom-transition">
-                            </a>
-                            <a class="hover:text-primary cursor-pointer custom-transition"
-                                href="https://mobileshop-yakoobkhedri.netlify.app/">فروشگاه موبایل شاپ اورجیلند</a>
-                        </div>
-                        <div class="group template relative">
-                            <a href="https://fontshare-yakoobkhedri.netlify.app/"
-                                class="relative block cursor-pointer rounded-xl overflow-hidden mb-2">
-                                <div
-                                    class="flex justify-between absolute top-1 inset-x-2 z-50 custom-transition opacity-0 group-hover:opacity-100">
-                                    <img src="img/templateIcon.PNG" alt="icon" class="w-7 h-7">
-                                    <span
-                                        class="text-white bg-black flex items-center justify-center text-xs h-5 px-1">تک صفحه</span>
-                                </div>
-                                <img src="img/fontshareScreenshot.PNG" alt="portfolioImg"
-                                    class="group-hover:opacity-80 custom-transition">
-                            </a>
-                            <a class="hover:text-primary cursor-pointer custom-transition"
-                                href="https://fontshare-yakoobkhedri.netlify.app/">fontShare</a>
                         </div>
                     </div>
                 </div>

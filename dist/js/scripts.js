@@ -112,3 +112,24 @@ focusArea.forEach((item) => {
 Fancybox.bind("[data-fancybox]", {
     // Your custom options
   });
+
+//   به دست آوردن سن
+
+function calculateAge(birthDate) {
+    const today = new Date();
+    const birth = new Date(birthDate);
+    let ageText = document.getElementById('ageText');
+    let age = today.getFullYear() - birth.getFullYear();
+    const monthDifference = today.getMonth() - birth.getMonth();
+
+    // Adjust age if the birthday hasn't occurred yet this year
+    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birth.getDate())) {
+        age--;
+    }
+
+    ageText.innerText= age;
+    
+}
+// Example usage:
+const dob = '1992-03-23'; // YYYY-MM-DD format
+const age = calculateAge(dob);
